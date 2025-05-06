@@ -1,13 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-    <script src="index.html"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>City Library</h1>
+        </div>
+        <nav id="navbar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to Your Community Library</h2>
+        <p>Discover, Learn, and Connect</p>
+        <a href="#" class="btn">Explore Books</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="cards">
+          <div class="card">
+            <i class="fas fa-book"></i>
+            <h3>Book Lending</h3>
+            <p>
+              Borrow from our extensive collection of books across all genres.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-laptop"></i>
+            <h3>Digital Resources</h3>
+            <p>Access e-books, audiobooks, and research databases.</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-users"></i>
+            <h3>Community Events</h3>
+            <p>Join our book clubs, workshops, and literacy programs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-arrivals">
+      <div class="container">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="books">
+          <div class="book">
+            <div class="book-cover"></div>
+            <h3>The Silent Patient</h3>
+            <p>By Alex Michaelides</p>
+          </div>
+          <div class="book">
+            <div class="book-cover"></div>
+            <h3>Educated</h3>
+            <p>By Tara Westover</p>
+          </div>
+          <div class="book">
+            <div class="book-cover"></div>
+            <h3>Atomic Habits</h3>
+            <p>By James Clear</p>
+          </div>
+          <div class="book">
+            <div class="book-cover"></div>
+            <h3>Becoming</h3>
+            <p>By Michelle Obama</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>City Library</h3>
+            <p>Your community hub for learning and discovery</p>
+          </div>
+          <div class="footer-section">
+            <h3>Opening Hours</h3>
+            <p>Monday to Friday: 9am - 8pm</p>
+            <p>Saturday: 10am - 6pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Library Street, City
+            </p>
+            <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+            <p><i class="fas fa-envelope"></i> info@citylibrary.com</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 City Library. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
 </html>
